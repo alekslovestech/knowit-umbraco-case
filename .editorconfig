@@ -1,0 +1,47 @@
+root = true
+
+[*]
+end_of_line = crlf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{cs,vb}]
+indent_style = space
+indent_size = 4
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_before_members_in_anonymous_types = false
+csharp_new_line_between_query_expression_clauses = false
+csharp_preserve_single_line_statements = true
+csharp_preserve_single_line_blocks = true
+csharp_style_allow_braces_in_single_line_blocks = true
+csharp_style_allow_braces_in_single_line_lambdas = true
+csharp_style_allow_braces_in_single_line_control_blocks = true
+csharp_style_allow_braces_in_single_line_anonymous_methods = true
+csharp_style_allow_braces_in_single_line_local_functions = true
+csharp_style_allow_braces_in_single_line_expression_bodied_members = true
+
+# Enforce K&R style
+csharp_style_braces_for_control_blocks = true:suggestion
+csharp_style_braces_for_lambdas = true:suggestion
+csharp_style_braces_for_anonymous_methods = true:suggestion
+csharp_style_braces_for_local_functions = true:suggestion
+csharp_style_braces_for_anonymous_types = true:suggestion
+csharp_style_braces_for_object_initializers = true:suggestion
+csharp_style_braces_for_collection_initializers = true:suggestion
+csharp_style_braces_for_expression_bodied_members = true:suggestion
+csharp_style_braces_for_switch_expression_arms = true:suggestion
+csharp_style_braces_for_switch_sections = true:suggestion
+csharp_style_braces_for_using_statements = true:suggestion
+csharp_style_braces_for_fixed_statements = true:suggestion
+csharp_style_braces_for_lock_statements = true:suggestion
+csharp_style_braces_for_unsafe_statements = true:suggestion
+csharp_style_braces_for_checked_statements = true:suggestion
+csharp_style_braces_for_unchecked_statements = true:suggestion
+csharp_style_braces_for_unsafe_fixed_statements = true:suggestion
+csharp_style_braces_for_unsafe_checked_statements = true:suggestion
+csharp_style_braces_for_unsafe_unchecked_statements = true:suggestion
