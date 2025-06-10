@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - KnowIt Umbraco</title>
+</head>
+<body>
+    <header>
+        @await Html.PartialAsync("Partials/Header")
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        @await Html.PartialAsync("Partials/Footer")
+    </footer>
+</body>
+</html>
