@@ -1,6 +1,9 @@
 ﻿@using Umbraco.Cms.Web.Common.PublishedModels;
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = "LayoutHF";
+}
 <div>
-    <h1>Welcome to KnowIt Umbraco</h1>
-    <p>This is Home Sweet Home.</p>
+    <h1>@Model.Value("title")</h1>
+    @Html.Raw(Model.Value("content"))
 </div>
