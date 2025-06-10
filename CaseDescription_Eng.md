@@ -7,22 +7,19 @@ The database should contain some items — you are free to decide what these ite
 
 The API should support the following operations:
 
-- Create an item
-- Get a specific item
-- Get all items
-- Delete an item
+1. Create an item
+1. Get a specific item
+1. Get all items
+1. Delete an item
 
 _The frontend is not part of the task. You may use Postman to demonstrate the API._
 
 The Umbraco site must include:
 
-- A header and footer
-
-- Editors should be able to create pages where the header and footer are automatically included
-
-- Pages should allow insertion of dynamic components in a designated content area
-
-- Editors should be able to reorder components
+1. A header and footer
+1. Editors should be able to create pages where the header and footer are automatically included
+1. Pages should allow insertion of dynamic components in a designated content area
+1. Editors should be able to reorder components
 
 Additional Considerations (You may reflect on):
 You should consider or briefly mention ideas about:
