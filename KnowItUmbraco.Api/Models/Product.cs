@@ -23,6 +23,8 @@ public class Product {
     [MaxLength(30)]
     public string Color { get; set; } = string.Empty;
 
+[MaxLength(20)]
+    public string somethignElse { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime? UpdatedAt { get; set; }
     public bool IsActive { get; set; } = true;
