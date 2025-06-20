@@ -1,0 +1,19 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.Blocks;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = "LayoutHF";
+}
+<div>
+    <h1>@Model.Value("title")</h1>
+    @Html.Raw(Model.Value("content"))
+    @if (Model.Value("theBlockList") != null) {
+        <div>
+            <ul>
+                @foreach (var block in Model?.Value<BlockListModel>("theBlockList"))  {
+                    <li>@Html.Raw(block?.Content.Value("theText"))</li>
+                }
+            </ul>
+        </div>
+    }
+</div>

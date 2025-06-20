@@ -17,7 +17,6 @@ public class ProductsController : ControllerBase {
     // GET: api/products
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Product>>> GetProducts() {
-        Console.WriteLine("Debugging: GetProducts");
         return await _context.Products.ToListAsync();
     }
 
